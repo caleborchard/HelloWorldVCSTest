@@ -4,10 +4,10 @@ public class Main
     {
         System.out.println("Fibonacci Sequence");
 
-        int fib1 = 0;
-        int fib2 = 0;
-        int current = 1;
-        while(current < 5000)
+        long fib1 = 0;
+        long fib2 = 0;
+        long current = 1;
+        while(current > 0)
         {
             System.out.println(current);
             fib1 = fib2;
